@@ -209,3 +209,17 @@ python manage.py test
 ## Author
 
 PC
+## Development Status
+
+The project includes Department and Employee models,
+REST API serializers, CRUD endpoints, email validation,
+department filtering, and employee search.
+
+Pagination is configured using Django REST Framework.
+## API Usage Examples
+
+- List employees: `GET /api/employees/`
+- Create an employee: `POST /api/employees/`
+- Search employees: `GET /api/employees/?search=anil`
+- Filter by department: `GET /api/employees/?department=1`
+- List departments: `GET /api/departments/`
